@@ -8,15 +8,15 @@ Spring Data JPA
 PostgreSQL
 Hibernate Validator
 
-📁 Project Structure
-com.project
-├── domain        // Entity classes
-├── dto           // Data Transfer Objects
-├── enums         // Enum types (Gender, Faculty)
-├── mapper        // Entity ↔ DTO mappers
-├── repository    // JpaRepository interfaces
-├── resource      // RestController endpoints
-└── service       // Business logic services
+ 📁 Project Structure
+ com.project
+ domain        // Entity classes
+ dto           // Data Transfer Objects
+ enums         // Enum types (Gender, Faculty)
+ mapper        // Entity ↔ DTO mappers
+ repository    // JpaRepository interfaces
+ resource      // RestController endpoints
+ service       // Business logic services
 
 💻 API Endpoints  
 | Method | Endpoint          | Description              |
