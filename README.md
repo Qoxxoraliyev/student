@@ -12,13 +12,13 @@ This project is a RESTful API built with Spring Boot that provides functionality
 ## 📁 Project Structure
 
 com.project
-├── domain // Entity classes
-├── dto // Data Transfer Objects
-├── enums // Enum types (Gender, Faculty)
-├── mapper // Entity ↔ DTO mappers
-├── repository // JpaRepository interfaces
-├── resource // RestController endpoints
-└── service // Business logic services
+├── domain # Entity classes
+├── dto # Data Transfer Objects
+├── enums # Enum types (Gender, Faculty)
+├── mapper # Entity ↔ DTO mappers
+├── repository # JpaRepository interfaces
+├── resource # RestController endpoints
+└── service # Business logic services
 
 💻 API Endpoints  
 | Method | Endpoint          | Description              |
@@ -30,20 +30,7 @@ com.project
 | PATCH  | /api/student/{id} | Update student partially |
 | DELETE | /api/student/{id} | Delete student           |
 
-⚙️ Database Configuration
-application.yml:
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/student
-    username: mohirdev
-    password: 123
-  jpa:
-    hibernate:
-      ddl-auto: update
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-    show-sql: true
+
 
 📝 Validations
 - First name & last name: letters and spaces only
